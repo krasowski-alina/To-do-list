@@ -1,38 +1,81 @@
+body {
+  background-color: #FFF7E9;
+}
+.woman-image {
+  margin-top: 50px;
+  width: 270px
+}
 .App {
-  text-align: center;
+  background-color: #fff;
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+  padding: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+h1 {
+  color: #FF731D;
+  text-align: center;
+  text-shadow: 1px 1px 1px #024c84;
+  font-family: 'Montserrat', sans-serif;
 }
+input {
+  flex: 1;
+  padding: 5px;
+  font-size: 16px;
+  border: #FF731D 2px solid;
+  font-family: 'Montserrat', sans-serif;
+ 
+}
+ul li {
+  list-style: none;
+  padding: 5px;
+  margin: 5px;
+  font-size: 25px;
+  color: #024c84;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+}
+.check {
+  height: 30px;
+}
+.crossed {
+  text-decoration: line-through 2px #FF731D;
+  background-color: #FFF7E9;
+
+}
+.btn {
+  width: 80%;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  box-shadow: 2px 3px 3px #FF731D;;
+  color: #fff;
+}
+.btn, .App, input, li {
+  border-radius: 10px;
+}
+.add {
+  background-color: #5F9DF7;
+  margin-top: 40px;
+}
+.delete {
+  background-color: #024c84;
+
+}
+@media all and (max-width: 500px){
+  h1 {
+    font-size: 30px;
   }
-  to {
-    transform: rotate(360deg);
+  .btn {
+    font-size: 18px;
+  }
+  ul li {
+    font-size: 20px;
+    padding: 0;
   }
 }
