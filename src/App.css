@@ -42,6 +42,9 @@ ul li {
   height: 30px;
 }
 .crossed {
+  -webkit-text-decoration-line: line-through;
+  -webkit-text-decoration-color: #FF731D;
+  -webkit-text-decoration-thickness: 2px;
   text-decoration: line-through 2px #FF731D;
   background-color: #FFF7E9;
 
